@@ -12,5 +12,5 @@ def grep():
     for a_line in doc:
         counter += 1 
         if word.lower() in a_line.lower() : #HI
-            print "the word: " + word + " found in line " + str(counter)
+            print "the word: " + word + " found in the line " + str(counter)
 grep()
